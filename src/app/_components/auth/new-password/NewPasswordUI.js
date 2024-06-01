@@ -13,7 +13,7 @@ const NewPasswordUI = () => {
         <input type="password" id="password" className="rounded-sm px-4 py-3 mt-3 focus:outline-none bg-gray-100 w-full" placeholder="Password" />        
       </div>
 
-      <Link href={'/'} class="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-black border-none text-white text-sm shadow-sm">
+      <Link href={'/'} className="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-black border-none text-white text-sm shadow-sm">
         Create New
       </Link>
     </form>

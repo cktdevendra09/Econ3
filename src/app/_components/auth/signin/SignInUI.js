@@ -16,7 +16,7 @@ const SignInUI = () => {
                 </div>
             </div>
 
-            <button type="submit" class="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-black border-none text-white text-sm shadow-sm">
+            <button type="submit" className="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-black border-none text-white text-sm shadow-sm">
                 Sign in
             </button>
         </form>

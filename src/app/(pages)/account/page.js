@@ -1,32 +1,44 @@
+import ProfileUI from '@/app/_components/account/profile/ProfileUI'
 import React from 'react'
 
 const Account = () => {
   return (
-    <div class=" space-y-6 p-10 pb-16 bg-white px-20 sm:px-60 ">
-      <div class="space-y-0.5">
-        <h2 class="text-2xl font-bold tracking-tight">Settings</h2>
-        <p class="text-muted-foreground">
+    <div className="flex-1 lg:max-w-2xl">
+      <div className="space-y-0.5">
+        <h2 className="text-2xl font-bold tracking-tight">Settings</h2>
+        <p className="text-muted-foreground">
           Manage your account settings and set e-mail preferences.
         </p>
       </div>
-      <div class="shrink-0 bg-border h-[1px] w-full"></div>
-      <div class="flex flex-col space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0" >
-        <nav class="flex space-x-2 lg:flex-col lg:space-x-0 lg:space-y-1">
-          <a class="inline-flex items-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 px-4 py-2 hover:bg-transparent hover:underline justify-start" href="/examples/forms">Profile</a>
-          <a class="inline-flex items-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 px-4 py-2 bg-muted hover:bg-muted justify-start" href="/examples/forms/account">Account</a>
-          <a class="inline-flex items-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 px-4 py-2 hover:bg-transparent hover:underline justify-start" href="/examples/forms/appearance">Appearance</a>
-          <a class="inline-flex items-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 px-4 py-2 hover:bg-transparent hover:underline justify-start" href="/examples/forms/notifications">Notifications</a>
-          <a class="inline-flex items-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 px-4 py-2 hover:bg-transparent hover:underline justify-start" href="/examples/forms/display">Display</a>
-        </nav>
 
-        <div class="flex-1 lg:max-w-2xl">
-          <h2 class="text-lg font-bold tracking-tight">Account</h2>
-          <p class="text-sm text-muted-foreground">
-            Update your account settings. Set your preferred language and
-            timezone.
-          </p>
+      <div className="mt-4">
+
+        <div className=" block md:flex">
+
+          <div className="w-full md:w-3/5  bg-white mb-10">
+             <ProfileUI />
+          </div>
+
+          <div className="w-full md:w-2/5">
+            <div className="rounded  shadow p-6">
+              <div className="pb-6">
+                <label for="name" className="font-semibold text-gray-700 block pb-1">Name</label>
+                <div className="flex">
+                  <input disabled id="username" className="border-1  rounded-r px-4 py-2 w-full" type="text" value="Jane Name" />
+                </div>
+              </div>
+              <div className="pb-4">
+                <label for="about" className="font-semibold text-gray-700 block pb-1">Email</label>
+                <input disabled id="email" className="border-1  rounded-r px-4 py-2 w-full" type="email" value="example@example.com" />
+                <span className="text-gray-600 pt-4 block opacity-70">Personal login information of your account</span>
+              </div>
+            </div>
+          </div>
+
         </div>
+
       </div>
+
     </div>
   )
 }

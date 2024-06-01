@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeaderNavbar = () => {
     return (
-        <nav className=" bg-white w-full flex relative justify-between items-center mx-auto px-5 h-20 shadow-md sm:px-32" >
+        <nav className=" bg-white w-full flex relative justify-between items-center mx-auto px-5 h-20 shadow-md sm:px-32 mb-4 sm:mb-10" >
             <div className="inline-flex">
                 <Link className="_o6689fn" href="/"
                 ><div className="hidden md:block">
@@ -20,15 +20,15 @@ const HeaderNavbar = () => {
             </div>
             <div className="hidden sm:block flex-shrink flex-grow-0 justify-start px-2 ">
                 <div className="inline-block">
-                    <div class="flex items-center max-w-lg mx-auto bg-white rounded-lg border " x-data="{ search: '' }">
-                        <div class=" w-96">
-                            <input type="search" class="w-full px-4  text-gray-800 rounded-full focus:outline-none"
+                    <div className="flex items-center max-w-lg mx-auto bg-white rounded-lg border " x-data="{ search: '' }">
+                        <div className=" w-96">
+                            <input type="search" className="w-full px-4  text-gray-800 rounded-full focus:outline-none"
                                 placeholder="search" x-model="search" />
                         </div>
                         <div>
-                            <button type="submit" class="flex items-center bg-black justify-center w-12 h-12 text-white rounded-r-lg"
+                            <button type="submit" className="flex items-center bg-black justify-center w-12 h-12 text-white rounded-r-lg"
                             >
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
@@ -51,7 +51,7 @@ const HeaderNavbar = () => {
                                 <div className="flex items-center h-5">
                                     <div className="_xpkakx">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                            fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                            fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd"
                                                 d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
                                             <path
