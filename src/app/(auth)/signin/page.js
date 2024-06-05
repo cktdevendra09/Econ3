@@ -8,7 +8,7 @@ const SignIn = () => {
       <div className="py-8 px-8 rounded-xl">
         <h1 className="font-medium text-2xl mt-3 text-center">Login</h1>
         <SignInUI />
-        <p className="mt-12 text-xs text-center font-light text-gray-400"> Don't have an account? 
+        <p className="mt-12 text-xs text-center font-light text-gray-400"> Dont have an account? 
         <Link href="/signup" className="text-black font-medium"> Create New </Link>  </p>
       </div>
     </div>

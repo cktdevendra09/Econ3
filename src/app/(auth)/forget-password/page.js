@@ -11,11 +11,11 @@ const ForgetPassword = () => {
             <p>Forget Password</p>
           </div>
           <div className="flex flex-row text-sm font-medium text-gray-400">
-            <p>We have sent a code to your email ba**@dipainhouse.com</p>
+            <p>We have sent a code to your email sa@dipainhouse.com</p>
           </div>
         </div>
         <ForgetPasswordUI />
-        <p className="mt-14 text-xs text-center font-light text-gray-400"> Don't have an account?
+        <p className="mt-14 text-xs text-center font-light text-gray-400"> Dont have an account?
           <Link href="/signup" className="text-black font-medium"> Create New </Link>  </p>
       </div>
     </div>
