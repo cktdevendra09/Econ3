@@ -18,38 +18,38 @@ export default function Home() {
 
             <div className="mt-8 grid grid-cols-1 gap-6 md:mt-10 md:grid-cols-3 lg:gap-8">
 
-              <article className="p-5">
+              <article className="">
                 {/* <div className="">
                   <h2 className="text-xl text-gray-600">Mens' Scotch</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/2.jpeg" alt="" />
+                    <Image className="rounded-md" src="/images/2.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
 
-              <article className="p-5">
+              <article className="">
                 {/* <div className="">
                   <h2 className="text-xl text-gray-600">Mens' Scotch</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/3.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/3.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
 
-              <article className="p-5">
+              <article className="">
                 {/* <div className="">
                   <h2 className="text-xl text-gray-600">Mens' Scotch</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/1.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/1.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
@@ -57,28 +57,28 @@ export default function Home() {
 
             </div>
 
-            <div className="mt-4 grid grid-cols-2 gap-5 md:mt-6 md:grid-cols-2 md:gap-6 lg:mt-8 lg:gap-8">
+            <div className="mt-4 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-2 md:gap-6 lg:mt-8 lg:gap-8">
 
-              <article className="p-5">
+              <article className="">
                 {/* <div>
                   <h2 className="text-xl text-gray-600">Mens' Black</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/6.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/6.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
 
-              <article className="p-5">
+              <article className="">
                 {/* <div>
                   <h2 className="text-xl text-gray-600">Mens' Black</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/7.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/7.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
@@ -183,28 +183,28 @@ export default function Home() {
         <div className="mx-auto max-w-md sm:max-w-lg md:max-w-screen-xl">
           <div className="px-4 md:px-6  lg:px-20">
 
-            <div className="mt-4 grid grid-cols-2 gap-5 md:mt-6 md:grid-cols-2 md:gap-6 lg:mt-8 lg:gap-8">
+            <div className="mt-4 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-2 md:gap-6 lg:mt-8 lg:gap-8">
 
-              <article className="p-2">
+              <article className="">
                 {/* <div>
                   <h2 className="text-xl text-gray-600">Mens' Black</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/6.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/6.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
 
-              <article className="p-2">
+              <article className="">
                 {/* <div>
                   <h2 className="text-xl text-gray-600">Mens' Black</h2>
                   <p className="mt-2 text-xl font-semibold text-gray-800"></p>
                 </div> */}
                 <div className="flex items-center justify-center">
                   <Link href={'/c/sadjidsaj'}>
-                    <img className="rounded-md" src="/images/7.jpeg" alt="" />
+                    <Image  className="rounded-md" src="/images/7.jpeg" alt="" width={100} height={100} layout="responsive"/>
                   </Link>
                 </div>
               </article>
