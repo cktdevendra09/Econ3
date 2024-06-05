@@ -67,24 +67,8 @@ const ProductDetails = () => {
                             Amet consectetur adipisicing elit. Optio numquam enim facere. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore rerum nostrum eius facere, ad neque.
                         </div>
 
-                        <h2 className="mt-8 text-base text-gray-900">Choose subscription</h2>
-                        <div className="mt-3 flex select-none flex-wrap items-center gap-1">
-                            <label className="">
-                                <input type="radio" name="subscription" value="4 Months" className="peer sr-only" />
-                                <p className="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">4 Months</p>
-                                <span className="mt-1 block text-center text-xs">$80/mo</span>
-                            </label>
-                            <label className="">
-                                <input type="radio" name="subscription" value="8 Months" className="peer sr-only" checked />
-                                <p className="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">8 Months</p>
-                                <span className="mt-1 block text-center text-xs">$60/mo</span>
-                            </label>
-                            <label className="">
-                                <input type="radio" name="subscription" value="12 Months" className="peer sr-only" />
-                                <p className="peer-checked:bg-black peer-checked:text-white rounded-lg border border-black px-6 py-2 font-bold">12 Months</p>
-                                <span className="mt-1 block text-center text-xs">$40/mo</span>
-                            </label>
-                        </div>
+                      
+                        
 
                         <div className="mt-10 flex flex-col items-center justify-between space-y-4 border-t border-b py-4 sm:flex-row sm:space-y-0">
                             <div className="flex items-end">
@@ -92,7 +76,8 @@ const ProductDetails = () => {
                                 <span className="text-base">/month</span>
                             </div>
 
-                            <button type="button" className="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-gray-900 bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
+                            <button type="button" className="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-black bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow ">
+                                
                                 <svg xmlns="http://www.w3.org/2000/svg" className="shrink-0 mr-3 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                                 </svg>

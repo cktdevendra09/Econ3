@@ -4,7 +4,7 @@ import React from 'react'
 
 const Category = () => {
     return (
-        <div className="space-y-6 px-5 pb-16 bg-white  sm:pl-32 ">
+        <div className="space-y-6 px-10 pb-16 bg-white  sm:pl-20 ">
             <div className="flex flex-col space-y-8 lg:flex-row lg:space-x-12 lg:space-y-0" >
                 <div className='hidden space-y-6  pb-16 md:block border'>
                     <nav className="flex space-x-2 lg:flex-col lg:space-x-0 lg:space-y-1">
