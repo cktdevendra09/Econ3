@@ -3,9 +3,9 @@ import React from 'react'
 const AccountSettingsUI = () => {
     return (
 
-        <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0  bg-gray-100">
+        <div className="relative flex flex-col break-words w-full sm:mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0  bg-gray-100">
              
-            <div className="flex-auto p-4">
+            <div className="flex-auto sm:p-4">
                 <div>
                     <h6 className="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
                         User Information

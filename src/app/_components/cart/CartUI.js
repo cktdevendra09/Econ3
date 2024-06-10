@@ -20,9 +20,8 @@ const CartUI = () => {
                 <p className="text-xs leading-3 text-gray-600 pt-2">Height: 10 inches</p>
                 <p className="text-xs leading-3 text-gray-600 py-4">Color: Black</p>
                 <div className="flex items-center justify-between ">
-                    <div className="flex itemms-center">
-                        <p className="text-xs leading-3 underline text-gray-800 cursor-pointer">Add to favorites</p>
-                        <p className="text-xs leading-3 underline text-red-500 pl-5 cursor-pointer">Remove</p>
+                    <div className="flex itemms-center">                        
+                        <p className="text-xs leading-3 underline text-red-500 cursor-pointer">Remove</p>
                     </div>
                     <p className="text-base font-black leading-none text-gray-800 px-5">10,000</p>
                 </div>

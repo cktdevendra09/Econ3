@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="">
         <div className="mx-auto max-w-md sm:max-w-lg md:max-w-screen-xl">
-          <div className="px-4 md:px-6  lg:px-20">
+          <div className="px-2 md:px-6  lg:px-20">
             <h1 className="text-center text-3xl font-semibold text-gray-800 lg:text-4xl">Our Best Selling Collection</h1>
 
             <div className="mt-8 grid grid-cols-1 gap-6 md:mt-10 md:grid-cols-3 lg:gap-8">
@@ -99,7 +99,7 @@ export default function Home() {
             <p className="mt-4 text-base font-normal leading-7 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus faucibus massa dignissim tempus.</p>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
             <ProductUI />
             <ProductUI />
             <ProductUI />
@@ -123,7 +123,7 @@ export default function Home() {
 
 
 
-      <section className="bg-white pt-5 px-5 sm:px-32">
+      <section className="bg-white pt-5 px-2 sm:px-32">
         <div>
           <div className="flex items-center flex-col  ">
             <hh1 className="focus:outline-none text-4xl lg:text-4xl font-extrabold text-center  text-gray-800 lg:w-5/12 md:w-9/12 pt-4">Create Beautiful Landing Pages & Web Apps in a Jiffy</hh1>
@@ -151,13 +151,13 @@ export default function Home() {
 
 
       <section className="px-2 bg-white sm:px-32 lg:px-32 mb-2 pt-10">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="px-2 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-md mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">Our featured items</h2>
             <p className="mt-4 text-base font-normal leading-7 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus faucibus massa dignissim tempus.</p>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
             <ProductUI />
             <ProductUI />
             <ProductUI />
@@ -179,9 +179,9 @@ export default function Home() {
       </section>
 
 
-      <section className="">
+      <section className="mb-10">
         <div className="mx-auto max-w-md sm:max-w-lg md:max-w-screen-xl">
-          <div className="px-4 md:px-6  lg:px-20">
+          <div className="px-2 md:px-6  lg:px-20">
 
             <div className="mt-4 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-2 md:gap-6 lg:mt-8 lg:gap-8">
 
